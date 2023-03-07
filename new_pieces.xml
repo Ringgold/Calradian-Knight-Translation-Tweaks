@@ -2,7 +2,7 @@
 <CraftingPieces>  
 
   
-   <CraftingPiece id="kbs1" name="Calradian Greatsword Blade" tier="5" piece_type="Blade" mesh="kbs1" culture="Culture.empire" length="130" weight="0.5">
+   <CraftingPiece id="kbs1" name="Calradian Giant Sword Blade" tier="5" piece_type="Blade" mesh="kbs1" culture="Culture.empire" length="130" weight="0.5">
     <StatContributions armor_bonus="3" thrust_damage_bonus="2" />
     <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="kbs5">
       <Thrust damage_type="Pierce" damage_factor="5.4" />
@@ -17,25 +17,25 @@
       <Material id="Iron5" count="3" />
     </Materials>
   </CraftingPiece>
-  <CraftingPiece id="kbs2" name="Calradian Greatsword Guard" tier="5" piece_type="Guard" mesh="kbs2" culture="Culture.empire" length="10" weight="0.2">
+  <CraftingPiece id="kbs2" name="Calradian Giant Sword Guard" tier="5" piece_type="Guard" mesh="kbs2" culture="Culture.empire" length="10" weight="0.2">
      <BuildData piece_offset="0" next_piece_offset="-34" previous_piece_offset="0" />
     <Materials>
       <Material id="Iron5" count="2" />
     </Materials>
   </CraftingPiece>
-  <CraftingPiece id="kbs3" name="Calradian Greatsword Handle" tier="5" piece_type="Handle" mesh="kbs3" culture="Culture.empire" length="40" weight="0.1">
+  <CraftingPiece id="kbs3" name="Calradian Giant Sword Handle" tier="5" piece_type="Handle" mesh="kbs3" culture="Culture.empire" length="40" weight="0.1">
      <BuildData piece_offset="0" next_piece_offset="5" previous_piece_offset="0" />
     <Materials>
       <Material id="Iron5" count="2" />
     </Materials>
   </CraftingPiece>
-  <CraftingPiece id="kbs4" name="Calradian Greatsword Pommel" tier="5" piece_type="Pommel" mesh="kbs4" culture="Culture.empire" length="10" weight="0.2">
+  <CraftingPiece id="kbs4" name="Calradian Giant Sword Pommel" tier="5" piece_type="Pommel" mesh="kbs4" culture="Culture.empire" length="10" weight="0.2">
     <Materials>
       <Material id="Iron5" count="1" />
     </Materials>
   </CraftingPiece>
 
-   <CraftingPiece id="kcj1" name="Calradian Longsword Blade" tier="4" piece_type="Blade" mesh="kcj1" culture="Culture.empire" length="110" weight="0.4">
+   <CraftingPiece id="kcj1" name="Calradian Long Sword Blade" tier="4" piece_type="Blade" mesh="kcj1" culture="Culture.empire" length="110" weight="0.4">
     <StatContributions armor_bonus="3" thrust_damage_bonus="2" />
     <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="kcj5">
       <Thrust damage_type="Pierce" damage_factor="4.3" />
@@ -49,19 +49,19 @@
       <Material id="Iron5" count="3" />
     </Materials>
   </CraftingPiece>
-  <CraftingPiece id="kcj2" name="Calradian Longsword Guard" tier="4" piece_type="Guard" mesh="kcj2" culture="Culture.empire" length="2" weight="0.1">
+  <CraftingPiece id="kcj2" name="Calradian Long Sword Guard" tier="4" piece_type="Guard" mesh="kcj2" culture="Culture.empire" length="2" weight="0.1">
      <BuildData piece_offset="0" next_piece_offset="-34" previous_piece_offset="0" />
     <Materials>
       <Material id="Iron5" count="2" />
     </Materials>
   </CraftingPiece>
-  <CraftingPiece id="kcj3" name="Calradian Longsword Handle" tier="4" piece_type="Handle" mesh="kcj3" culture="Culture.empire" length="35" weight="0.1">
+  <CraftingPiece id="kcj3" name="Calradian Long Sword Handle" tier="4" piece_type="Handle" mesh="kcj3" culture="Culture.empire" length="35" weight="0.1">
      <BuildData piece_offset="0" next_piece_offset="5" previous_piece_offset="0" />
     <Materials>
       <Material id="Iron5" count="2" />
     </Materials>
   </CraftingPiece>
-  <CraftingPiece id="kcj4" name="Calradian Longsword Pommel" tier="4" piece_type="Pommel" mesh="kcj4" culture="Culture.empire" length="8" weight="0.1">
+  <CraftingPiece id="kcj4" name="Calradian Long Sword Pommel" tier="4" piece_type="Pommel" mesh="kcj4" culture="Culture.empire" length="8" weight="0.1">
     <Materials>
       <Material id="Iron5" count="1" />
     </Materials>
@@ -120,7 +120,7 @@
   </CraftingPiece>
 
    <CraftingPiece id="kp1"
-                 name="Calradian Ritual Halberd Blade"
+                 name="Calradian Decorated Halberd Blade"
                  tier="5"
                  piece_type="Blade"
                  mesh="kp1"
@@ -133,9 +133,9 @@
                physics_material="metal_weapon"
                body_name="bo_spear_b">
       <Thrust damage_type="Pierce"
-              damage_factor="7" />
+              damage_factor="10" />
       <Swing damage_type="Cut"
-             damage_factor="7" />
+             damage_factor="10" />
     </BladeData>
    <Flags>
       <Flag name="BonusAgainstShield" />
@@ -150,7 +150,7 @@
   </CraftingPiece>  
 
   <CraftingPiece id="kp2"
-                 name="Calradian Ritual Halberd Handle"
+                 name="Calradian Decorated Halberd Handle"
                  tier="5"
                  piece_type="Handle"
                  mesh="kp2"

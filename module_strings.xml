@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <strings>
-  <string id="str_crafting_template.knightsword" text="{=knightsword} Calradian Greatsword" />
-  <string id="str_crafting_template.knightsword2" text="{=knightsword2} Calradian Longsword" /> 
+  <string id="str_crafting_template.knightsword" text="{=knightsword} Calradian Giant Sword" />
+  <string id="str_crafting_template.knightsword2" text="{=knightsword2} Calradian Long Sword" /> 
   <string id="str_crafting_template.knightsword3" text="{=knightsword3} Calradian Warsword" /> 
  <string id="str_crafting_template.knightpolearm" text="{=knightpolearm} Calradian Halberd" />
  <string id="str_crafting_template.knightspear" text="{=knightspear} Calradian Spear" />

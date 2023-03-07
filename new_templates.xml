@@ -15,8 +15,8 @@
     <StatsData>
       <StatData stat_type="Weight" max_value="7.0" />
       <StatData stat_type="WeaponReach" max_value="300" />
-      <StatData stat_type="ThrustSpeed" max_value="500" />
-      <StatData stat_type="SwingSpeed" max_value="500" />
+      <StatData stat_type="ThrustSpeed" max_value="800" />
+      <StatData stat_type="SwingSpeed" max_value="800" />
       <StatData stat_type="ThrustDamage" max_value="500" />
       <StatData stat_type="SwingDamage" max_value="500" />
       <StatData stat_type="Handling" max_value="200" />
@@ -44,8 +44,8 @@
     <StatsData>
       <StatData stat_type="Weight" max_value="7.0" />
       <StatData stat_type="WeaponReach" max_value="300" />
-      <StatData stat_type="ThrustSpeed" max_value="500" />
-      <StatData stat_type="SwingSpeed" max_value="500" />
+      <StatData stat_type="ThrustSpeed" max_value="800" />
+      <StatData stat_type="SwingSpeed" max_value="800" />
       <StatData stat_type="ThrustDamage" max_value="500" />
       <StatData stat_type="SwingDamage" max_value="500" />
       <StatData stat_type="Handling" max_value="200" />
@@ -72,8 +72,8 @@
     <StatsData>
       <StatData stat_type="Weight" max_value="7.0" />
       <StatData stat_type="WeaponReach" max_value="300" />
-      <StatData stat_type="ThrustSpeed" max_value="500" />
-      <StatData stat_type="SwingSpeed" max_value="500" />
+      <StatData stat_type="ThrustSpeed" max_value="800" />
+      <StatData stat_type="SwingSpeed" max_value="800" />
       <StatData stat_type="ThrustDamage" max_value="500" />
       <StatData stat_type="SwingDamage" max_value="500" />
       <StatData stat_type="Handling" max_value="200" />
@@ -98,8 +98,8 @@
     <StatsData>
       <StatData stat_type="Weight" max_value="7.0" />
       <StatData stat_type="WeaponReach" max_value="300" />
-      <StatData stat_type="ThrustSpeed" max_value="500" />
-      <StatData stat_type="SwingSpeed" max_value="500" />
+      <StatData stat_type="ThrustSpeed" max_value="800" />
+      <StatData stat_type="SwingSpeed" max_value="800" />
       <StatData stat_type="ThrustDamage" max_value="500" />
       <StatData stat_type="SwingDamage" max_value="500" />
       <StatData stat_type="Handling" max_value="200" />
@@ -136,15 +136,15 @@
       <StatData stat_type="WeaponReach"
                 max_value="300" />
       <StatData stat_type="ThrustSpeed"
-                max_value="200" />
+                max_value="800" />
       <StatData stat_type="SwingSpeed"
-                max_value="200" />
+                max_value="800" />
       <StatData stat_type="ThrustDamage"
                 max_value="500" />
       <StatData stat_type="SwingDamage"
                 max_value="500" />
       <StatData stat_type="Handling"
-                max_value="200" />
+                max_value="400" />
       <!--<StatData stat_type="FollowUp" max_value="200" />-->
     </StatsData>
     <UsablePieces>
@@ -180,15 +180,15 @@
       <StatData stat_type="WeaponReach"
                 max_value="300" />
       <StatData stat_type="ThrustSpeed"
-                max_value="200" />
+                max_value="800" />
       <StatData stat_type="SwingSpeed"
-                max_value="200" />
+                max_value="800" />
       <StatData stat_type="ThrustDamage"
                 max_value="500" />
       <StatData stat_type="SwingDamage"
                 max_value="500" />
       <StatData stat_type="Handling"
-                max_value="200" />
+                max_value="400" />
       <!--<StatData stat_type="FollowUp" max_value="200" />-->
     </StatsData>
     <UsablePieces>

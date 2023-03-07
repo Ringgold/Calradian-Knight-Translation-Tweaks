@@ -117,6 +117,12 @@
     <AvailablePieces>
     <AvailablePiece id="klance1"/>
 	<AvailablePiece id="klance2"/>
+    <AvailablePiece id="kp1"/>
+	<AvailablePiece id="kp2"/>
+    <AvailablePiece id="kp3"/>
+	<AvailablePiece id="kp4"/>
+    <AvailablePiece id="cbf1"/>
+	<AvailablePiece id="cbf2"/>
       <!-- AvailablePieces,OneHandedPolearm -->
     </AvailablePieces>
   </WeaponDescription>
@@ -130,6 +136,12 @@
     <AvailablePieces>
     <AvailablePiece id="klance1"/>
 	<AvailablePiece id="klance2"/>
+    <AvailablePiece id="kp1"/>
+	<AvailablePiece id="kp2"/>
+    <AvailablePiece id="kp3"/>
+	<AvailablePiece id="kp4"/>
+    <AvailablePiece id="cbf1"/>
+	<AvailablePiece id="cbf2"/>
       <!-- AvailablePieces,TwoHandedPolearm -->
     </AvailablePieces>
   </WeaponDescription>

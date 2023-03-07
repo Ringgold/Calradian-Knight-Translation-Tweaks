@@ -1,9 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><NPCCharacters>
-	<NPCCharacter id="newknight" default_group="Infantry" level="11" name="{=Sergeant Callard}Sergeant Callard" occupation="Soldier" is_basic_troop="true" culture="Culture.empire" is_female="true">
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<NPCCharacter id="newknight"
+		default_group="Infantry"
+		level="11"
+		name="{=Calradian Infantry}Calradian Infantry"
+		occupation="Soldier"
+                                is_basic_troop="true"
+		culture="Culture.empire" is_female="true">
 		<face>
-                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
 		</face>
-		<skills>
+		<skills >
 			<skill id="Athletics" value="50"/>
 			<skill id="Riding" value="40"/>
 			<skill id="OneHanded" value="100"/>
@@ -35,11 +42,17 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="horseknight" default_group="Cavalry" level="16" name="{=Calradian Rider}Calradian Rider" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.empire" is_female="true">
+	<NPCCharacter id="horseknight"
+		default_group="Cavalry"
+		level="16"
+		name="{=Calradian Horseman}Calradian Horseman"
+		upgrade_requires="ItemCategory.horse"
+		occupation="Soldier"
+		culture="Culture.empire" is_female="true">
 		<face>
-                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
 		</face>
-		<skills>
+		<skills >
 			<skill id="Athletics" value="80"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="100"/>
@@ -74,11 +87,16 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="spearknight" default_group="Infantry" level="16" name="{=Calradian Ax Gunner}Calradian Ax Gunner" occupation="Soldier" culture="Culture.empire" is_female="true">
+	<NPCCharacter id="spearknight"
+		default_group="Infantry"
+		level="16"
+		name="{=Calradian Halberdier}Calradian Halberdier"
+		occupation="Soldier"
+		culture="Culture.empire" is_female="true">
 		<face>
-                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
 		</face>
-		<skills>
+		<skills >
 			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
@@ -110,11 +128,16 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="shieldknight" default_group="Infantry" level="16" name="{=Calradian Shields}Calradian Shields" occupation="Soldier" culture="Culture.empire" is_female="true">
+	<NPCCharacter id="shieldknight"
+		default_group="Infantry"
+		level="16"
+		name="{=Calradian Shield Guard}Calradian Shield Guard"
+		occupation="Soldier"
+		culture="Culture.empire" is_female="true">
 		<face>
-                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
 		</face>
-		<skills>
+		<skills >
 			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="200"/>
@@ -146,11 +169,16 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="swordknight" default_group="Infantry" level="16" name="{=Calradian Swordsman}Calradian Swordsman" occupation="Soldier" culture="Culture.empire" is_female="true">
+	<NPCCharacter id="swordknight"
+		default_group="Infantry"
+		level="16"
+		name="{=Calradian Swordsman}Calradian Swordsman"
+		occupation="Soldier"
+		culture="Culture.empire" is_female="true">
 		<face>
-                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
 		</face>
-		<skills>
+		<skills >
 			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="80"/>
 			<skill id="OneHanded" value="100"/>
@@ -182,11 +210,16 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="heavyshieldknight" default_group="Infantry" level="21" name="{=Calradian Elite Shield Guard}Calradian Elite Shield Guard" occupation="Soldier" culture="Culture.empire" is_female="true">
+	<NPCCharacter id="heavyshieldknight"
+		default_group="Infantry"
+		level="21"
+		name="{=Calradian Elite Shield Guard}Calradian Elite Shield Guard"
+		occupation="Soldier"
+		culture="Culture.empire" is_female="true">
 		<face>
-                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
 		</face>
-		<skills>
+		<skills >
 			<skill id="Athletics" value="125"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="250"/>
@@ -217,11 +250,16 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="heavyswordknight" default_group="Infantry" level="21" name="{=Calradian Elite Great Swordsman}Calradian Elite Great Swordsman" occupation="Soldier" culture="Culture.empire" is_female="true">
+	<NPCCharacter id="heavyswordknight"
+		default_group="Infantry"
+		level="21"
+		name="{=Calradian Heavy Swordsman}Calradian Heavy Swordsman"
+		occupation="Soldier"
+		culture="Culture.empire" is_female="true">
 		<face>
-                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
 		</face>
-		<skills>
+		<skills >
 			<skill id="Athletics" value="125"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="125"/>
@@ -252,11 +290,16 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="footknight" default_group="Infantry" level="21" name="{=Calradian Elite Halberd Guard}Calradian Elite Halberd Guard" occupation="Soldier" culture="Culture.empire" is_female="true">
+	<NPCCharacter id="footknight"
+		default_group="Infantry"
+		level="21"
+		name="{=Calradian Elite Halberdier}Calradian Elite Halberdier"
+		occupation="Soldier"
+		culture="Culture.empire" is_female="true">
 		<face>
-                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
 		</face>
-		<skills>
+		<skills >
 			<skill id="Athletics" value="125"/>
 			<skill id="Riding" value="100"/>
 			<skill id="OneHanded" value="125"/>
@@ -290,11 +333,17 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="heavyknight" default_group="Cavalry" level="21" name="{=Calradian Knights}Calradian Knights" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.empire" is_female="true">
+	<NPCCharacter id="heavyknight"
+		default_group="Cavalry"
+		level="21"
+		name="{=Calradian Knight}Calradian Knight"
+		upgrade_requires="ItemCategory.horse"
+		occupation="Soldier"
+		culture="Culture.empire" is_female="true">
 		<face>
-                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
 		</face>
-		<skills>
+		<skills >
 			<skill id="Athletics" value="100"/>
 			<skill id="Riding" value="125"/>
 			<skill id="OneHanded" value="125"/>
@@ -331,11 +380,16 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="heavyfootknight" default_group="Infantry" level="26" name="{=Calradian'S Guard}Calradian'S Guard" occupation="Soldier" culture="Culture.empire" is_female="true">
+	<NPCCharacter id="heavyfootknight"
+		default_group="Infantry"
+		level="26"
+		name="{=Calradian Royal Guard}Calradian Royal Guard"
+		occupation="Soldier"
+		culture="Culture.empire" is_female="true">
 		<face>
-                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
 		</face>
-		<skills>
+		<skills >
 			<skill id="Athletics" value="150"/>
 			<skill id="Riding" value="120"/>
 			<skill id="OneHanded" value="150"/>
@@ -366,11 +420,17 @@
 		</Equipments>
 	</NPCCharacter>
 
-	<NPCCharacter id="eliteheavyknight" default_group="Cavalry" level="26" name="{=Calradian Heavy Knight}Calradian Heavy Knight" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.empire" is_female="true">
+	<NPCCharacter id="eliteheavyknight"
+		default_group="Cavalry"
+		level="26"
+		name="{=Calradian Elite Knight}Calradian Elite Knight"
+		upgrade_requires="ItemCategory.horse"
+		occupation="Soldier"
+		culture="Culture.empire" is_female="true">
 		<face>
-                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
 		</face>
-		<skills>
+		<skills >
 			<skill id="Athletics" value="120"/>
 			<skill id="Riding" value="150"/>
 			<skill id="OneHanded" value="150"/>

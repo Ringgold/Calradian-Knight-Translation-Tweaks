@@ -127,6 +127,8 @@
     <WeaponDescriptions>
       <WeaponDescription id="knightTwoHandedPolearm" />
       <WeaponDescription id="knightTwoHandedPolearm_Bracing"/>
+      <WeaponDescription id="knightTwoHandedPolearm_Couchable"/>
+      <WeaponDescription id="knightOneHandedPolearm" />
     </WeaponDescriptions>
     <StatsData>
       <StatData stat_type="Weight"

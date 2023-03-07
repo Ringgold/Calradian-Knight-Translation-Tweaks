@@ -148,21 +148,21 @@
     <Flags Civilian="true"/>
   </Item>
 
- <Item id="klegarmor" name="Knight-Calradian Legguards" mesh="klegarmor" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+ <Item id="klegarmor" name="Knight-Calradian Decorated Plate Boots" mesh="klegarmor" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
     <ItemComponent>
       <Armor leg_armor="49" covers_legs="true" modifier_group="plate" material_type="Plate"/>
     </ItemComponent>
     <Flags Civilian="true"/>
   </Item>
 
- <Item id="klegarmor2" name="Knight-Calradian Box Leg Armor" mesh="klegarmor2" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+ <Item id="klegarmor2" name="Knight-Calradian Plate Boots" mesh="klegarmor2" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
     <ItemComponent>
       <Armor leg_armor="49" covers_legs="true" modifier_group="plate" material_type="Plate"/>
     </ItemComponent>
     <Flags Civilian="true"/>
   </Item>
 
- <Item id="klegarmor3" name="Knight-Calradian Light Leg Armor" mesh="klegarmor3" culture="Culture.empire" weight="1.5" appearance="3" Type="LegArmor">
+ <Item id="klegarmor3" name="Knight-Calradian Light Plate Boots" mesh="klegarmor3" culture="Culture.empire" weight="1.5" appearance="3" Type="LegArmor">
     <ItemComponent>
       <Armor leg_armor="36" covers_legs="true" modifier_group="plate" material_type="Plate"/>
     </ItemComponent>
@@ -204,7 +204,7 @@
     <Flags Civilian="true"/>
   </Item>
 
- <Item id="maximillianleg" name="Knight-Maximillian Leg Armor" mesh="maximillianleg" culture="Culture.empire" weight="2.6" appearance="3" Type="LegArmor">
+ <Item id="maximillianleg" name="Knight-Maximillian Plate Boots" mesh="maximillianleg" culture="Culture.empire" weight="2.6" appearance="3" Type="LegArmor">
     <ItemComponent>
       <Armor leg_armor="69" covers_legs="true" modifier_group="plate" material_type="Plate"/>
     </ItemComponent>

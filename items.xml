@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?><Items>
+  
+  <Item id="kcrown" name="Knight-Calradian Crown" mesh="kcrown" culture="Culture.empire" weight="1.2" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="50" has_gender_variations="false" hair_cover_type="none" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+  <Item id="kheadarmor" name="Knight-Calradian Armored Helmet" mesh="kheadarmor" culture="Culture.empire" weight="3.2" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="78" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+  <Item id="kheadarmor2" name="Knight-Calradian Open-Faced Armored Helmet" mesh="kheadarmor2" culture="Culture.empire" weight="3.2" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="78" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+  <Item id="kheadarmor3" name="Knight-Calradian Frogmouth Helmet" mesh="kheadarmor3" culture="Culture.empire" weight="5.2" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="88" covers_head="true" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+  <Item id="kheadarmor4" name="Knight-Calradian Light Helmet" mesh="kheadarmor4" culture="Culture.empire" weight="2.2" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="64" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="type1" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+  <Item id="kheadarmor5" name="Knight-Calradian Open-Faced Light Helmet" mesh="kheadarmor5" culture="Culture.empire" weight="2.2" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="64" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="type1" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+  <Item id="kheadarmor6" name="Knight-Calradian Pig Visor" mesh="kheadarmor6" culture="Culture.empire" weight="3.6" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="84" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+  <Item id="kheadarmor7" name="Knight-Calradian Open-Faced Pig Mask" mesh="kheadarmor7" culture="Culture.empire" weight="3.6" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="84" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="type1" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+  <Item id="kheadarmor8" name="Knight-Calradian Skeleton Armored Helmet" mesh="kheadarmor8" culture="Culture.empire" weight="3.2" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="76" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+  <Item id="kheadarmor9" name="Knight-Calradian Open Face Hollow Armored Helmet" mesh="kheadarmor9" culture="Culture.empire" weight="3.2" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="76" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+  <Item id="kheadarmor10" name="Knight - Calradian Babuta Helmet" mesh="kheadarmor10" culture="Culture.empire" weight="3.2" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="76" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="type1" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+
+  <Item id="kbodyarmor" name="Knight-Calradian Breastplate Robe" mesh="kbodyarmor" culture="Culture.empire" weight="27.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="62" leg_armor="28" arm_armor="26" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+  <Item id="kbodyarmor2" name="Knight-Calradian Cuirass With Skirt" mesh="kbodyarmor2" culture="Culture.empire" weight="28.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="62" leg_armor="36" arm_armor="26" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+  <Item id="kbodyarmor3" name="Knight-Calradian Breastplate" mesh="kbodyarmor3" culture="Culture.empire" weight="26.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="62" leg_armor="19" arm_armor="26" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+  <Item id="kbodyarmor4" name="Knight-Calradian Mail" mesh="kbodyarmor4" culture="Culture.empire" weight="21.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="42" leg_armor="26" arm_armor="19" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+  <Item id="kshoulderarmor" name="Knight-Calradian Full Shoulder Armor" mesh="kshoulderarmor" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="21" arm_armor="23" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+  <Item id="kshoulderarmor2" name="Knight-Calradian Spherical Pauldrons" mesh="kshoulderarmor2" culture="Culture.empire" weight="3.1" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="21" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+ <Item id="khandarmor" name="Knight - Calradian Notched Gauntlets" mesh="khandarmor" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="36" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+ <Item id="khandarmor2" name="Knight-Calradian Gauntlets" mesh="khandarmor2" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="36" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+ <Item id="khandarmor3" name="Knight-Calradian Fan Gauntlets" mesh="khandarmor3" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="36" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+ <Item id="khandarmor4" name="Knight-Calradian Enhanced Gauntlets" mesh="khandarmor4" culture="Culture.empire" weight="2.6" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="39" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+ <Item id="klegarmor" name="Knight-Calradian Legguards" mesh="klegarmor" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="49" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+ <Item id="klegarmor2" name="Knight-Calradian Box Leg Armor" mesh="klegarmor2" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="49" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+ <Item id="klegarmor3" name="Knight-Calradian Light Leg Armor" mesh="klegarmor3" culture="Culture.empire" weight="1.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="36" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+  <Item id="maximillianhead" name="Knight-Maximilian Helmet" mesh="maximillianhead" culture="Culture.empire" weight="4.2" appearance="2.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="88" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+  <Item id="maximillianhead2" name="Knight-Maximi Split Face Helmet" mesh="maximillianhead2" culture="Culture.empire" weight="4.2" appearance="2.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="88" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item> 
+
+  <Item id="maximillianbody" name="Knight-Maximilian Breastplate" mesh="maximillianbody" culture="Culture.empire" weight="28.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="82" leg_armor="38" arm_armor="36" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+  <Item id="maximillianshoulder" name="Knight-Maximi Shoulder Armor" mesh="maximillianshoulder" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="47" arm_armor="49" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+ <Item id="maximillianhand" name="Knight-Maximi Even Hand Armor" mesh="maximillianhand" culture="Culture.empire" weight="2.8" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="63" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+ <Item id="maximillianleg" name="Knight-Maximi Leg Armor" mesh="maximillianleg" culture="Culture.empire" weight="2.6" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="69" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+  </Items>

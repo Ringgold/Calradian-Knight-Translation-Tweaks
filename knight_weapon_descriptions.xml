@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<WeaponDescriptions>
+
+  
+  <WeaponDescription id="knightOneHandedSword"
+					   weapon_class="OneHandedSword"
+					   item_usage_features="onehanded:block:shield:swing:thrust">
+		<WeaponFlags>
+			<WeaponFlag value="MeleeWeapon"/>
+			<WeaponFlag value="BonusAgainstShield" />
+		</WeaponFlags>
+		<AvailablePieces>
+			<AvailablePiece id="kdj1"/>
+			<AvailablePiece id="kdj2"/>
+			<AvailablePiece id="kdj3"/>
+			<AvailablePiece id="kdj4"/>
+       </AvailablePieces>
+	</WeaponDescription>
+
+  <WeaponDescription id="knightTwoHandedSword"
+					   weapon_class="TwoHandedSword"
+					   item_usage_features="twohanded:block:swing:thrust">
+		<WeaponFlags>
+			<WeaponFlag value="MeleeWeapon"/>
+			<WeaponFlag value="BonusAgainstShield" />
+		</WeaponFlags>
+		<AvailablePieces>
+			<AvailablePiece id="kbs1"/>
+			<AvailablePiece id="kbs2"/>
+			<AvailablePiece id="kbs3"/>
+			<AvailablePiece id="kbs4"/>
+			<AvailablePiece id="kcj1"/>
+			<AvailablePiece id="kcj2"/>
+			<AvailablePiece id="kcj3"/>
+			<AvailablePiece id="kcj4"/>
+       </AvailablePieces>
+	</WeaponDescription>   
+
+  <WeaponDescription id="knightMace"
+					   weapon_class="Mace"
+					   item_usage_features="onehanded:block:shield:tipdraw:swing:thrust">
+		<WeaponFlags>
+			<WeaponFlag value="MeleeWeapon"/>
+			<WeaponFlag value="BonusAgainstShield" />
+		</WeaponFlags>
+		<AvailablePieces>
+			<AvailablePiece id="kmace1"/>
+			<AvailablePiece id="kmace2"/>
+       </AvailablePieces>
+	</WeaponDescription>
+   
+ <WeaponDescription id="knightTwoHandedPolearm" weapon_class="TwoHandedPolearm" item_usage_features="polearm:block:long:shield:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon" />
+      <WeaponFlag value="WideGrip" />
+      <WeaponFlag value="TwoHandIdleOnMount" />
+	  <WeaponFlag value="BonusAgainstShield" />
+	  <WeaponFlag value="NotUsableWithOneHand"/>
+    </WeaponFlags>
+    <AvailablePieces>
+    <AvailablePiece id="kp1"/>
+	<AvailablePiece id="kp2"/>
+    <AvailablePiece id="kp3"/>
+	<AvailablePiece id="kp4"/>
+    <AvailablePiece id="cbf1"/>
+	<AvailablePiece id="cbf2"/>
+      <!-- AvailablePieces,TwoHandedPolearm -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+ <WeaponDescription id="knightTwoHandedPolearm2" weapon_class="TwoHandedPolearm" item_usage_features="polearm:block:long:shield:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon" />
+      <WeaponFlag value="WideGrip" />
+      <WeaponFlag value="TwoHandIdleOnMount" />
+	  <WeaponFlag value="BonusAgainstShield" />
+	  <WeaponFlag value="NotUsableWithOneHand"/>
+    </WeaponFlags>
+    <AvailablePieces>
+    <AvailablePiece id="klance1"/>
+	<AvailablePiece id="klance2"/>
+    <AvailablePiece id="kcj1"/>
+	<AvailablePiece id="kcj2"/>
+    <AvailablePiece id="kcj3"/>
+	<AvailablePiece id="kcj4"/>
+      <!-- AvailablePieces,TwoHandedPolearm -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+
+ <WeaponDescription id="knightTwoHandedPolearm_Bracing" weapon_class="TwoHandedPolearm" item_usage_features="polearm:bracing">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon" />
+      <WeaponFlag value="WideGrip" />
+      <WeaponFlag value="TwoHandIdleOnMount" />
+	  <WeaponFlag value="BonusAgainstShield" />
+	  <WeaponFlag value="NotUsableWithOneHand"/>
+    </WeaponFlags>
+    <AvailablePieces>
+    <AvailablePiece id="kp1"/>
+	<AvailablePiece id="kp2"/>
+    <AvailablePiece id="kp3"/>
+	<AvailablePiece id="kp4"/>
+    <AvailablePiece id="cbf1"/>
+	<AvailablePiece id="cbf2"/>
+      <!-- AvailablePieces,TwoHandedPolearm -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+ <WeaponDescription id="knightOneHandedPolearm" weapon_class="OneHandedPolearm" item_usage_features="onehanded_polearm:block:long:rshield:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon" />
+      <WeaponFlag value="WideGrip" />
+	  <WeaponFlag value="BonusAgainstShield" />
+    </WeaponFlags>
+    <AvailablePieces>
+    <AvailablePiece id="klance1"/>
+	<AvailablePiece id="klance2"/>
+      <!-- AvailablePieces,OneHandedPolearm -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+ <WeaponDescription id="knightTwoHandedPolearm_Couchable" weapon_class="TwoHandedPolearm" item_usage_features="polearm:couch">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon" />
+      <WeaponFlag value="WideGrip" />
+	  <WeaponFlag value="BonusAgainstShield" />
+    </WeaponFlags>
+    <AvailablePieces>
+    <AvailablePiece id="klance1"/>
+	<AvailablePiece id="klance2"/>
+      <!-- AvailablePieces,TwoHandedPolearm -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+</WeaponDescriptions>

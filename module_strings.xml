@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><strings>
+  <string id="str_crafting_template.knightsword" text="{=Knightsword} Calradian Greatsword"/>
+  <string id="str_crafting_template.knightsword2" text="{=Knightsword2} Calradian Longsword"/> 
+  <string id="str_crafting_template.knightsword3" text="{=Knightsword3} Calradian Armor Sword"/> 
+ <string id="str_crafting_template.knightpolearm" text="{=Knightpolearm} Calradian Halberd"/>
+ <string id="str_crafting_template.knightspear" text="{=Knightspear} Calradian Spear"/>
+ <string id="str_crafting_template.knightmace" text="{=Knightmace} Calradian Staff"/>
+
+
+
+  <string id="str_weapon_usage.knightOneHandedSword" text="{=Knightonehandedsword} One Handed Sword"/>
+  <string id="str_weapon_usage.knightTwoHandedSword" text="{=Knighttwohandedsword} Two Handed Sword"/>
+  <string id="str_weapon_usage.knightMace" text="{=Knightmace} One-Handed Staff"/>
+  <string id="str_weapon_usage.knightTwoHandedPolearm" text="{=Knighttwohandedpolearm} Two-Handed Polearm"/>
+  <string id="str_weapon_usage.knightTwoHandedPolearm2" text="{=Knighttwohandedpolearm2} Two-Handed Polearm"/>
+  <string id="str_weapon_usage.knightOneHandedPolearm" text="{=Knightonehandedpolearm} One-Handed Polearm"/>
+  <string id="str_weapon_usage.knightTwoHandedPolearm_Couchable" text="{=Knighttwohandedpolearm_Couchable} Couchable Polearm"/>
+  <string id="str_weapon_usage.knightTwoHandedPolearm_Bracing" text="{=Knighttwohandedpolearm_Bracing} Bracing"/>
+</strings>

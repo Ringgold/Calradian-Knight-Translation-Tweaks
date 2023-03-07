@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?><NPCCharacters>
+	<NPCCharacter id="newknight" default_group="Infantry" level="11" name="{=Sergeant Callard}Sergeant Callard" occupation="Soldier" is_basic_troop="true" culture="Culture.empire" is_female="true">
+		<face>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="50"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.swordknight"/>
+			<upgrade_target id="NPCCharacter.spearknight"/>
+			<upgrade_target id="NPCCharacter.shieldknight"/>
+			<upgrade_target id="NPCCharacter.horseknight"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knightsword3"/>
+				<equipment slot="Body" id="Item.kbodyarmor4"/>
+				<equipment slot="Gloves" id="Item.khandarmor2"/>
+				<equipment slot="Leg" id="Item.klegarmor3"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knightsword3"/>
+				<equipment slot="Body" id="Item.kbodyarmor4"/>
+				<equipment slot="Gloves" id="Item.khandarmor2"/>
+				<equipment slot="Leg" id="Item.klegarmor3"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="horseknight" default_group="Cavalry" level="16" name="{=Calradian Rider}Calradian Rider" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.heavyknight"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knightspear"/>
+				<equipment slot="Item1" id="Item.knightsword3"/>
+				<equipment slot="Item2" id="Item.knightshield2"/>
+				<equipment slot="Head" id="Item.kheadarmor6"/>
+				<equipment slot="Body" id="Item.kbodyarmor4"/>
+				<equipment slot="Gloves" id="Item.khandarmor2"/>
+				<equipment slot="Leg" id="Item.klegarmor2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knightsword3"/>
+				<equipment slot="Head" id="Item.kheadarmor7"/>
+				<equipment slot="Body" id="Item.kbodyarmor4"/>
+				<equipment slot="Gloves" id="Item.khandarmor2"/>
+				<equipment slot="Leg" id="Item.klegarmor2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spearknight" default_group="Infantry" level="16" name="{=Calradian Ax Gunner}Calradian Ax Gunner" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.footknight"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knightpolearm3"/>
+				<equipment slot="Item1" id="Item.knightsword3"/>
+				<equipment slot="Head" id="Item.kheadarmor6"/>
+				<equipment slot="Body" id="Item.kbodyarmor4"/>
+				<equipment slot="Gloves" id="Item.khandarmor2"/>
+				<equipment slot="Leg" id="Item.klegarmor2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knightsword3"/>
+				<equipment slot="Head" id="Item.kheadarmor7"/>
+				<equipment slot="Body" id="Item.kbodyarmor4"/>
+				<equipment slot="Gloves" id="Item.khandarmor2"/>
+				<equipment slot="Leg" id="Item.klegarmor2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="shieldknight" default_group="Infantry" level="16" name="{=Calradian Shields}Calradian Shields" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.heavyshieldknight"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knightmace"/>
+				<equipment slot="Item1" id="Item.knightshield2"/>
+				<equipment slot="Head" id="Item.kheadarmor4"/>
+				<equipment slot="Body" id="Item.kbodyarmor4"/>
+				<equipment slot="Gloves" id="Item.khandarmor2"/>
+				<equipment slot="Leg" id="Item.klegarmor2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knightmace"/>
+				<equipment slot="Head" id="Item.kheadarmor5"/>
+				<equipment slot="Body" id="Item.kbodyarmor4"/>
+				<equipment slot="Gloves" id="Item.khandarmor2"/>
+				<equipment slot="Leg" id="Item.klegarmor2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="swordknight" default_group="Infantry" level="16" name="{=Calradian Swordsman}Calradian Swordsman" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.heavyswordknight"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knightsword2"/>
+				<equipment slot="Item1" id="Item.knightmace"/>
+				<equipment slot="Head" id="Item.kheadarmor8"/>
+				<equipment slot="Body" id="Item.kbodyarmor4"/>
+				<equipment slot="Gloves" id="Item.khandarmor4"/>
+				<equipment slot="Leg" id="Item.klegarmor2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knightsword2"/>
+				<equipment slot="Head" id="Item.kheadarmor9"/>
+				<equipment slot="Body" id="Item.kbodyarmor4"/>
+				<equipment slot="Gloves" id="Item.khandarmor4"/>
+				<equipment slot="Leg" id="Item.klegarmor2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="heavyshieldknight" default_group="Infantry" level="21" name="{=Calradian Elite Shield Guard}Calradian Elite Shield Guard" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="125"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="125"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knightmace"/>
+				<equipment slot="Item1" id="Item.knightshield"/>
+				<equipment slot="Head" id="Item.kheadarmor4"/>
+				<equipment slot="Cape" id="Item.kshoulderarmor"/>
+				<equipment slot="Body" id="Item.kbodyarmor"/>
+				<equipment slot="Gloves" id="Item.khandarmor2"/>
+				<equipment slot="Leg" id="Item.klegarmor"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knightmace"/>
+				<equipment slot="Head" id="Item.kheadarmor5"/>
+				<equipment slot="Cape" id="Item.kshoulderarmor"/>
+				<equipment slot="Body" id="Item.kbodyarmor"/>
+				<equipment slot="Gloves" id="Item.khandarmor2"/>
+				<equipment slot="Leg" id="Item.klegarmor"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="heavyswordknight" default_group="Infantry" level="21" name="{=Calradian Elite Great Swordsman}Calradian Elite Great Swordsman" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="125"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="125"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knightsword"/>
+				<equipment slot="Item1" id="Item.knightmace"/>
+				<equipment slot="Head" id="Item.kheadarmor8"/>
+				<equipment slot="Cape" id="Item.kshoulderarmor"/>
+				<equipment slot="Body" id="Item.kbodyarmor"/>
+				<equipment slot="Gloves" id="Item.khandarmor4"/>
+				<equipment slot="Leg" id="Item.klegarmor"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knightsword"/>
+				<equipment slot="Head" id="Item.kheadarmor9"/>
+				<equipment slot="Cape" id="Item.kshoulderarmor"/>
+				<equipment slot="Body" id="Item.kbodyarmor"/>
+				<equipment slot="Gloves" id="Item.khandarmor4"/>
+				<equipment slot="Leg" id="Item.klegarmor"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="footknight" default_group="Infantry" level="21" name="{=Calradian Elite Halberd Guard}Calradian Elite Halberd Guard" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="125"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="125"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.heavyfootknight"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knightpolearm2"/>
+				<equipment slot="Item1" id="Item.knightsword3"/>
+				<equipment slot="Head" id="Item.kheadarmor6"/>
+				<equipment slot="Cape" id="Item.kshoulderarmor2"/>
+				<equipment slot="Body" id="Item.kbodyarmor"/>
+				<equipment slot="Gloves" id="Item.khandarmor3"/>
+				<equipment slot="Leg" id="Item.klegarmor"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knightsword3"/>
+				<equipment slot="Head" id="Item.kheadarmor7"/>
+				<equipment slot="Cape" id="Item.kshoulderarmor2"/>
+				<equipment slot="Body" id="Item.kbodyarmor"/>
+				<equipment slot="Gloves" id="Item.khandarmor3"/>
+				<equipment slot="Leg" id="Item.klegarmor"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="heavyknight" default_group="Cavalry" level="21" name="{=Calradian Knights}Calradian Knights" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="125"/>
+			<skill id="OneHanded" value="125"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.eliteheavyknight"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knightspear"/>
+				<equipment slot="Item1" id="Item.knightsword3"/>
+				<equipment slot="Item2" id="Item.knightshield2"/>
+				<equipment slot="Head" id="Item.kheadarmor6"/>
+				<equipment slot="Cape" id="Item.kshoulderarmor2"/>
+				<equipment slot="Body" id="Item.kbodyarmor3"/>
+				<equipment slot="Gloves" id="Item.khandarmor3"/>
+				<equipment slot="Leg" id="Item.klegarmor2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knightsword3"/>
+				<equipment slot="Head" id="Item.kheadarmor7"/>
+				<equipment slot="Cape" id="Item.kshoulderarmor2"/>
+				<equipment slot="Body" id="Item.kbodyarmor3"/>
+				<equipment slot="Gloves" id="Item.khandarmor3"/>
+				<equipment slot="Leg" id="Item.klegarmor2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="heavyfootknight" default_group="Infantry" level="26" name="{=Calradian'S Guard}Calradian'S Guard" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="120"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knightpolearm"/>
+				<equipment slot="Item1" id="Item.knightsword3"/>
+				<equipment slot="Head" id="Item.kheadarmor10"/>
+				<equipment slot="Cape" id="Item.kshoulderarmor2"/>
+				<equipment slot="Body" id="Item.kbodyarmor2"/>
+				<equipment slot="Gloves" id="Item.khandarmor4"/>
+				<equipment slot="Leg" id="Item.klegarmor"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knightsword3"/>
+				<equipment slot="Head" id="Item.kheadarmor10"/>
+				<equipment slot="Cape" id="Item.kshoulderarmor2"/>
+				<equipment slot="Body" id="Item.kbodyarmor2"/>
+				<equipment slot="Gloves" id="Item.khandarmor4"/>
+				<equipment slot="Leg" id="Item.klegarmor"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="eliteheavyknight" default_group="Cavalry" level="26" name="{=Calradian Heavy Knight}Calradian Heavy Knight" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+                                 <BodyProperties version="4" age="30.93" weight="0" build="0.0023" key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="120"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="120"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knightspear"/>
+				<equipment slot="Item1" id="Item.knightsword3"/>
+				<equipment slot="Item2" id="Item.knightshield2"/>
+				<equipment slot="Head" id="Item.kheadarmor3"/>
+				<equipment slot="Cape" id="Item.kshoulderarmor2"/>
+				<equipment slot="Body" id="Item.kbodyarmor2"/>
+				<equipment slot="Gloves" id="Item.khandarmor3"/>
+				<equipment slot="Leg" id="Item.klegarmor2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knightsword3"/>
+				<equipment slot="Head" id="Item.kheadarmor3"/>
+				<equipment slot="Cape" id="Item.kshoulderarmor2"/>
+				<equipment slot="Body" id="Item.kbodyarmor2"/>
+				<equipment slot="Gloves" id="Item.khandarmor3"/>
+				<equipment slot="Leg" id="Item.klegarmor2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
